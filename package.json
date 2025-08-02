@@ -21,7 +21,7 @@
     "nextjs-template",
     "react-dashboard",
     "bootstrap 5"
-    ],
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -29,14 +29,19 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@prisma/client": "^6.13.0",
     "@vercel/analytics": "^1.0.1",
     "apexcharts": "^3.41.1",
+    "axios": "^1.11.0",
     "bootstrap": "^5.3.1",
+    "dotenv": "^17.2.1",
     "eslint": "8.46.0",
     "eslint-config-next": "13.4.12",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.14.3",
     "next": "13.4.12",
-    "node-sass": "^9.0.0",
     "prism-react-renderer": "^2.0.6",
+    "prisma": "^6.13.0",
     "react": "18.2.0",
     "react-apexcharts": "^1.4.1",
     "react-bootstrap": "^2.8.0",
@@ -47,7 +52,7 @@
     "react-feather": "^2.0.10",
     "react-responsive": "^9.0.2",
     "react-syntax-highlighter": "^15.5.0",
-    "sass": "^1.64.2",
+    "sass": "^1.89.2",
     "sass-loader": "^13.3.2",
     "simplebar": "^6.2.5",
     "simplebar-react": "^3.2.4",
